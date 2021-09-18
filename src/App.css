@@ -1,0 +1,64 @@
+:root {
+  --primary-color: #0066cc;
+}
+
+.navigation {
+  /* width: 100%; */
+  background-color: var(--primary-color);
+  text-align: center;
+  color: white;
+  padding: 2rem;
+}
+
+.nav-heading {
+  font-size: 5rem;
+}
+
+body {
+  margin: 0px;
+  overflow-x: hidden;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+.stock-type {
+  margin-top: 2rem;
+  text-align: center;
+  padding-inline-start: 0px;
+}
+.stock-type li {
+  display: inline;
+  font-size: 2rem;
+  padding: 1rem;
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
+  border-radius: 5px;
+  border-bottom-right-radius: 15px;
+  margin-right: 1rem;
+}
+
+li {
+  list-style: none;
+}
+.stock-type li:hover {
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
+}
+.stock-list {
+  margin-top: 2rem;
+  padding: 2rem;
+  text-align: left;
+}
+.stock-list li:hover {
+  /* border-bottom: 2px solid var(--primary-color); */
+  background-color: darkgrey;
+  /* color: ; */
+}
+.footer-nav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 25px;
+}
